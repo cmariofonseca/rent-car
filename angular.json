@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "rent-car"
+    }
+  },
+  "defaultProject": "rent-car",
+  "cli": {
+    "analytics": "55b3b1aa-9c33-441d-90bb-dd4e20d1b460"
+  }
 }

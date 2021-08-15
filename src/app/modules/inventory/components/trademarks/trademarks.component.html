@@ -1,0 +1,29 @@
+<div class="d-flex justify-content-between">
+  <h2>{{ titleOfComponent }}</h2>
+  <div class="dropdown me-1">
+    <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-bs-toggle="dropdown"
+      aria-expanded="false" data-bs-offset="10,20">
+      Elegir por marca
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+      <ng-container *ngFor="let brand of brands">
+        <li><a class="dropdown-item">{{ brand }}</a></li>
+      </ng-container>
+    </ul>
+  </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 mt-2">  
+  <div class="col">
+    <div class="card" style="cursor: pointer;">
+      <img
+        src="https://ca-times.brightspotcdn.com/dims4/default/0702283/2147483647/strip/true/crop/2048x1102+0+0/resize/840x452!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fa6%2Fa0%2F98f23ef79faf28d8da82f2cc9128%2Fhoyla-cuales-son-las-marcas-de-automoviles-mas-001"
+        class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Onix</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+          content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>

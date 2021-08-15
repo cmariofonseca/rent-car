@@ -1,0 +1,7 @@
+.btn {
+  min-width: 180px;
+  font-size: 25px;
+}
+.btn-outline-warning {
+  border-color: #f89406;
+}
