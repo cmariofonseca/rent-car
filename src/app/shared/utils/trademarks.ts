@@ -1,6 +1,6 @@
 export const trademarks = {
     automobiles: 'Automóviles',
-    suv: 'Camionetas',
     pickups: 'Pickups',
+    suv: 'Camionetas',
     trucks: 'Camiones de carga'
 }

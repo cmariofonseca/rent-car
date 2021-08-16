@@ -1,7 +1,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: sans-serif;
 }
 
 *,
@@ -12,6 +11,6 @@
   box-sizing: border-box;
 }
 
-/* body {
-    overflow-y: hidden;
-} */
+.orangeText {
+  color: #f89406;
+}

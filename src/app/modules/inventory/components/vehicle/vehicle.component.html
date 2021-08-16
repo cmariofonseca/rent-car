@@ -1,1 +1,40 @@
-<p>vehicle works!</p>
+<h2 class="orangeText mb-4">Vehiculo disponible</h2>
+
+<div class="d-flex justify-content-center mb-4">
+  <div class="w-75 card">
+    <img [src]=vehicle.image class="card-img-top">
+    <div class="card-body">
+      <div class="d-flex justify-content-between">
+        <h3 class="card-title orangeText">
+          {{ vehicle.trademark }}  {{ vehicle.reference }} {{ vehicle.year }}
+        </h3>
+        <h4>{{ vehicle.valueDay | currency : 'USD' : 'symbol' : '1.0-0' }}/día</h4>
+      </div>
+      <div class="d-flex justify-content-between">
+        <div style="width: 40%;">
+          <div class="d-flex justify-content-between">
+            <i class="bi-people"></i>
+            <h5 class="card-text">{{'Hasta '+ vehicle.capacity +' pasajeros'}}</h5>
+          </div>
+          <div class="d-flex justify-content-between">
+            <i class="bi-node-minus"></i>
+            <h5 class="card-text">{{ vehicle.fuel }}</h5>
+          </div>
+        </div>
+        <div style="width: 40%;">
+          <div class="d-flex justify-content-between">
+            <i class="bi-gear"></i>
+            <h5 class="card-text">{{ vehicle.gear }}</h5>
+          </div>
+          <div class="d-flex justify-content-between">
+            <i class="bi-door-closed"></i>
+            <h5 class="card-text">{{ vehicle.doors }}</h5>
+          </div>
+        </div>
+      </div>
+      <div class="d-grid gap-2 mt-3">
+        <button type="button" class="btn btn-warning">Rentar</button>
+      </div>
+    </div>
+  </div>
+</div>

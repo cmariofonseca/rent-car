@@ -9,8 +9,6 @@ export class WelcomeComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-    console.log('WelcomeComponent is called!!!!!!!!!!!!!')
-  }
+  ngOnInit(): void { }
 
 }

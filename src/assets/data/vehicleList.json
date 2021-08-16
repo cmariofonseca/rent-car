@@ -112,52 +112,6 @@
         "doors": 4
       }
     ],
-    "suv": [
-      {
-        "trademark": "Ford",
-        "reference": "Explorer",
-        "image": "https://m.media-amazon.com/images/I/6180pH5cI7S._UY560_.jpg",
-        "valueDay": 150000,
-        "capacity": 5,
-        "year": "2021",
-        "fuel": "Gasolina",
-        "gear": "Mecánico",
-        "doors": 4
-      },
-      {
-        "trademark": "Ford",
-        "reference": "F-150",
-        "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/06/20190615-FORD-F-150-RAPTOR-CON-MOTOR-V8-01.jpg",
-        "valueDay": 150000,
-        "capacity": 5,
-        "year": "2021",
-        "fuel": "Electrico",
-        "gear": "Automático",
-        "doors": 4
-      },
-      {
-        "trademark": "Hyundai",
-        "reference": "Creta",
-        "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2020/11/202011113-HYUNDAI-CRETA-2021-AMERICA-LATINA-MEXICO-PRECIOS-VERSIONES-CARACTERISTICAS-01.jpg",
-        "valueDay": 150000,
-        "capacity": 5,
-        "year": "2021",
-        "fuel": "Gasolina",
-        "gear": "Mecánico",
-        "doors": 4
-      },
-      {
-        "trademark": "Hyundai",
-        "reference": "Tucson",
-        "image": "https://www.hibridosyelectricos.com/media/hibridos/images/2020/12/09/2020120911414020656.jpg",
-        "valueDay": 150000,
-        "capacity": 5,
-        "year": "2021",
-        "fuel": "Electrico",
-        "gear": "Automático",
-        "doors": 4
-      }
-    ],
     "pickups": [
       {
         "trademark": "Toyota",
@@ -196,6 +150,52 @@
         "trademark": "Chevrolet",
         "reference": "Colorado",
         "image": "https://es.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicles/2021/trucks/colorado/colorizer/01-images/2021-colorado-4zr-gtl-colorizer.jpg?imwidth=960",
+        "valueDay": 150000,
+        "capacity": 5,
+        "year": "2021",
+        "fuel": "Electrico",
+        "gear": "Automático",
+        "doors": 4
+      }
+    ],
+    "suv": [
+      {
+        "trademark": "Ford",
+        "reference": "Explorer",
+        "image": "https://m.media-amazon.com/images/I/6180pH5cI7S._UY560_.jpg",
+        "valueDay": 150000,
+        "capacity": 5,
+        "year": "2021",
+        "fuel": "Gasolina",
+        "gear": "Mecánico",
+        "doors": 4
+      },
+      {
+        "trademark": "Ford",
+        "reference": "F-150",
+        "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/06/20190615-FORD-F-150-RAPTOR-CON-MOTOR-V8-01.jpg",
+        "valueDay": 150000,
+        "capacity": 5,
+        "year": "2021",
+        "fuel": "Electrico",
+        "gear": "Automático",
+        "doors": 4
+      },
+      {
+        "trademark": "Hyundai",
+        "reference": "Creta",
+        "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2020/11/202011113-HYUNDAI-CRETA-2021-AMERICA-LATINA-MEXICO-PRECIOS-VERSIONES-CARACTERISTICAS-01.jpg",
+        "valueDay": 150000,
+        "capacity": 5,
+        "year": "2021",
+        "fuel": "Gasolina",
+        "gear": "Mecánico",
+        "doors": 4
+      },
+      {
+        "trademark": "Hyundai",
+        "reference": "Tucson",
+        "image": "https://www.hibridosyelectricos.com/media/hibridos/images/2020/12/09/2020120911414020656.jpg",
         "valueDay": 150000,
         "capacity": 5,
         "year": "2021",
