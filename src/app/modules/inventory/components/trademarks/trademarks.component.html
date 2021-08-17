@@ -27,20 +27,11 @@
           class="card-img-top"
         >
         <div class="card-body">
-          <h5 class="card-title orangeText">
-            {{ vehicle.trademark }} {{ vehicle.reference }} {{ vehicle.year }}
-          </h5>
           <div class="d-flex justify-content-between">
-            <i class="bi-people"></i>
-            <p class="card-text">{{'Hasta '+ vehicle.capacity +' pasajeros'}}</p>
-          </div>
-          <div class="d-flex justify-content-between">
-            <i class="bi-node-minus"></i>
-            <p class="card-text">{{ vehicle.fuel }}</p>
-          </div>
-          <div class="d-flex justify-content-between">
-            <i class="bi-gear"></i>
-            <p class="card-text">{{ vehicle.gear }}</p>
+            <h5 class="card-title orangeText">
+              {{ vehicle.trademark }} {{ vehicle.reference }} {{ vehicle.year }}
+            </h5>
+            <b>{{ vehicle.valueDay | currency : 'USD' : 'symbol' : '1.0-0' }}/día</b>
           </div>
         </div>
       </div>

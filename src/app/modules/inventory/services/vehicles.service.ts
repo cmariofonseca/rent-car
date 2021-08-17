@@ -14,7 +14,7 @@ export class VehiclesService {
   constructor(private http: HttpClient) { }
 
   getDataVehicles(): Observable<Data> {
-    return this.http.get<Data>('assets/data/vehicleList.json');
+    return this.http.get<Data>('http://localhost:3000/api/v1/vehicles');
   }
 
   setVehicleSelected(vehicle: Vehicle): void {

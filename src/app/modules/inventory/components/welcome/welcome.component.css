@@ -1,11 +1,18 @@
 .myContainer{
     position: relative;
-    display: inline-block;
-    text-align: center;
 }
 
-.image {
-    width: 100%;
+.video {
+    width: 90%;
+    height: 100%;
+}
+
+.opacity {
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: .60;
 }
 
 .title{
@@ -13,35 +20,35 @@
     color: #f89406;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    top: 50px;
-    left: 10px;
+    top: 40px;
+    left: 70px;
 }
 
 .text1 {
     position: absolute;
     color: white;
     top: 90px;
-    left: 10px;
+    left: 70px;
 }
 
 .text2 {
     position: absolute;
     color: white;
     top: 120px;
-    left: 10px;
+    left: 70px;
 }
 
 .text3 {
     position: absolute;
     color: white;
     top: 150px;
-    left: 10px;
+    left: 70px;
 }
 
 .btn-warning {
     position: absolute;
     top: 250px;
-    left: 10px;
+    left: 70px;
     border-color: #f89406;
     font-size: 25px;
 }
