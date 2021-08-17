@@ -1,4 +1,4 @@
-import { Data } from "../models/data";
+import { Data } from "../interfaces/data";
 
 export const initialEstate: Data = {
   category: {

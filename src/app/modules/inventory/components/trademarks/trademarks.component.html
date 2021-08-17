@@ -18,10 +18,10 @@
   </div>
 </div>
 
-<div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+<div class="row row-cols-1 row-cols-md-3 g-4 mt-2 mb-5">
   <ng-container *ngFor="let vehicle of vehicles">
     <div class="col">
-      <div (click)="setVehicleSelected(vehicle)" class="card" style="cursor: pointer;">
+      <div (click)="setVehicleSelected(vehicle)" class="card h-100" style="cursor: pointer;">
         <img
           [src]=vehicle.image
           class="card-img-top"

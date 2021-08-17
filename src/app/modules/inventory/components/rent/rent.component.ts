@@ -1,14 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-rent',
   templateUrl: './rent.component.html',
   styleUrls: ['./rent.component.css']
 })
-export class RentComponent implements OnInit {
+export class RentComponent {
 
   constructor() { }
-
-  ngOnInit(): void { }
 
 }

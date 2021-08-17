@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { Store } from '@ngrx/store';
 import { Router } from '@angular/router';
-import { trademarks } from 'src/app/shared/utils/trademarks';
-import { Vehicle } from '../../models/vehicle';
+import { trademarks } from 'src/app/modules/inventory/utils/constant';
+import { Vehicle } from '../../interfaces/vehicle';
 import { VehiclesService } from '../../services/vehicles.service';
+import { Data } from '../../interfaces/data';
 
 @Component({
   selector: 'app-trademarks',
@@ -18,13 +20,13 @@ export class TrademarksComponent implements OnInit {
   secureData: Array<Vehicle>;
 
   constructor(
+    private store: Store<Data>,
     private vehiclesSrv: VehiclesService,
     private router: Router
-  ) { }
+  ) {}
 
   ngOnInit(): void {
     this.getTrademark();
-    this.getVehiclesList();
     this.getVehiclesList();
   }
   
@@ -40,12 +42,11 @@ export class TrademarksComponent implements OnInit {
   }
 
   getVehiclesList() {
-    this.vehiclesSrv.getDataVehicles().subscribe(data => {
-      this.vehicles = this.secureData = data.category[this.key];
+    this.store.select('category').subscribe(data => {
+      this.vehicles = this.secureData = data[this.key];
       this.brands = Array.from(new Set(
         this.secureData.map(vehicle => vehicle.trademark)
       ));
-      console.log(this.secureData);
     });
   }
 
@@ -54,7 +55,6 @@ export class TrademarksComponent implements OnInit {
   }
 
   setVehicleSelected(vehicle: Vehicle) {
-    console.log(vehicle);
     this.vehiclesSrv.setVehicleSelected(vehicle);
     this.router.navigate(['inventory/rent/vehicle']);
   }

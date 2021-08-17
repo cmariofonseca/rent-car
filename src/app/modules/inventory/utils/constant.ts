@@ -4,3 +4,5 @@ export const trademarks = {
     suv: 'Camionetas',
     trucks: 'Camiones de carga'
 }
+
+export const LOAD_DATA = '[Vehicles] loadData';
