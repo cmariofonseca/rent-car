@@ -1,0 +1,8 @@
+[0817/041227.766:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0817/042500.267:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\carlfona\AppData\Local\Temp\karma-47355559\Crashpad\attachments\66bf94e4-73df-43bd-a348-3da4ed6ff691: El sistema no puede encontrar la ruta especificada. (0x3)
+[0817/043952.651:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0817/044715.106:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\carlfona\AppData\Local\Temp\karma-97756182\Crashpad\attachments\9c0853d3-7b4e-4500-9e5a-2c8af59eeae4: El sistema no puede encontrar la ruta especificada. (0x3)
+[0817/045249.486:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\carlfona\AppData\Local\Temp\karma-99132024\Crashpad\attachments\7c6e1df4-fa6c-4b01-baa4-0d9d0b838516: El sistema no puede encontrar la ruta especificada. (0x3)
+[0817/050628.043:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\carlfona\AppData\Local\Temp\karma-72882328\Crashpad\attachments\331026ba-f12e-40a0-9133-4d9967d269f7: El sistema no puede encontrar la ruta especificada. (0x3)
+[0817/050940.671:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\carlfona\AppData\Local\Temp\karma-98915469\Crashpad\attachments\03ff69fa-d643-4f42-a5bb-7d313401135e: El sistema no puede encontrar la ruta especificada. (0x3)
+[0817/075306.172:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\carlfona\AppData\Local\Temp\karma-71710588\Crashpad\attachments\16fb1a34-95bd-410f-b608-f79d1317905f: El sistema no puede encontrar la ruta especificada. (0x3)
